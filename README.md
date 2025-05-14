@@ -178,8 +178,9 @@ setTimeout(() => {
 This campaign demonstrates a clever and low-interaction method of data exfiltration using trusted Apple device features. By leveraging `.mobileconfig` profiles, attackers bypass traditional phishing detection and gain persistent access to sensitive information.
 
 ### This repository contains:
-- Sample redacted profiles for reference  
-- Indicators of compromise  
-- Write-up to raise awareness of configuration profile abuse  
+- Sample redacted profiles for reference (`.mobileconfig` file's)
+- Indicators of compromise.
+- Write-up to raise awareness of configuration profile abuse.
+   
 
 
