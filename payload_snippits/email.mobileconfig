@@ -1,0 +1,10 @@
+<key>PayloadType</key>
+<string>com.apple.mail.managed</string>
+<key>EmailAddress</key>
+<string>blutrgr@eu40.1host.gr</string>
+<key>IncomingMailServerHostName</key>
+<string>mail.blutr.gr</string>
+<key>IncomingMailServerPortNumber</key>
+<integer>993</integer>
+<key>OutgoingMailServerPortNumber</key>
+<integer>465</integer>
