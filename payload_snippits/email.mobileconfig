@@ -1,10 +1,78 @@
-<key>PayloadType</key>
-<string>com.apple.mail.managed</string>
-<key>EmailAddress</key>
-<string>blutrgr@eu40.1host.gr</string>
-<key>IncomingMailServerHostName</key>
-<string>mail.blutr.gr</string>
-<key>IncomingMailServerPortNumber</key>
-<integer>993</integer>
-<key>OutgoingMailServerPortNumber</key>
-<integer>465</integer>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+      <key>EmailAccountDescription</key>
+      <string>blutrgr@eu40.1host.gr</string>
+      <key>EmailAccountName</key>
+      <string>blutrgr@eu40.1host.gr</string>
+      <key>EmailAccountType</key>
+      <string>EmailTypeIMAP</string>
+      <key>EmailAddress</key>
+      <string>blutrgr@eu40.1host.gr</string>
+      <key>IncomingMailServerAuthentication</key>
+      <string>EmailAuthPassword</string>
+      <key>IncomingMailServerHostName</key>
+      <string>mail.blutr.gr</string>
+      <key>IncomingMailServerPortNumber</key>
+      <integer>993</integer>
+      <key>IncomingMailServerUseSSL</key>
+      <true/>
+      <key>IncomingMailServerUsername</key>
+      <string>blutrgr</string>
+      <key>OutgoingMailServerAuthentication</key>
+      <string>EmailAuthPassword</string>
+      <key>OutgoingMailServerHostName</key>
+      <string>mail.blutr.gr</string>
+      <key>OutgoingMailServerPortNumber</key>
+      <integer>465</integer>
+      <key>OutgoingMailServerUseSSL</key>
+      <true/>
+      <key>OutgoingMailServerUsername</key>
+      <string>blutrgr</string>
+      <key>OutgoingPasswordSameAsIncomingPassword</key>
+      <true/>
+      <key>PayloadDescription</key>
+      <string>blutrgr@eu40.1host.gr Secure Email Setup</string>
+      <key>PayloadDisplayName</key>
+      <string>blutrgr@eu40.1host.gr Secure Email Setup</string>
+      <key>PayloadIdentifier</key>
+      <string>cpanel.mail.org.blutrgr.eu40.1host.gr</string>
+      <key>PayloadOrganization</key>
+      <string>eu40.1host.gr</string>
+      <key>PayloadType</key>
+      <string>com.apple.mail.managed</string>
+      <key>PayloadUUID</key>
+      <string>ec4c5539-c279-d858-74c2-09870899ad04</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>PreventAppSheet</key>
+      <false/>
+      <key>PreventMove</key>
+      <false/>
+      <key>SMIMEEnabled</key>
+      <false/>
+      <key>IncomingMailServerIMAPPathPrefix</key>
+      <string>INBOX</string>
+    </dict>
+  </array>
+  <key>PayloadDescription</key>
+  <string>blutrgr@eu40.1host.gr Secure Email Setup</string>
+  <key>PayloadDisplayName</key>
+  <string>blutrgr@eu40.1host.gr Secure Email Setup</string>
+  <key>PayloadIdentifier</key>
+  <string>cpanel.mail.org.blutrgr.eu40.1host.gr-email</string>
+  <key>PayloadOrganization</key>
+  <string>cpanel.mail.org.blutrgr.eu40.1host.gr</string>
+  <key>PayloadRemovalDisallowed</key>
+  <false/>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadUUID</key>
+  <string>fc4f7388-452b-23f7-f434-7250cbdaa38c</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+</dict>
+</plist>
