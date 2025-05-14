@@ -1,0 +1,52 @@
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+        <key>CalDAVAccountDescription</key>
+        <string>blutrgr@eu40.1host.gr</string>
+        <key>CalDAVHostName</key>
+        <string>mail.blutr.gr</string>
+        <key>CalDAVPort</key>
+        <integer>2080</integer>
+        <key>CalDAVPrincipalURL</key>
+        <string>/principals/blutrgr</string>
+        <key>CalDAVUseSSL</key>
+        <true/>
+        <key>CalDAVUsername</key>
+        <string>blutrgr</string>
+        <key>PayloadDescription</key>
+        <string>blutrgr@eu40.1host.gr Secure Calendar Setup</string>
+        <key>PayloadDisplayName</key>
+        <string>blutrgr@eu40.1host.gr Secure Calendar Setup</string>
+        <key>PayloadIdentifier</key>
+        <string>cpanel.mail.org.blutrgr.eu40.1host.gr</string>
+        <key>PayloadOrganization</key>
+        <string>eu40.1host.gr</string>
+        <key>PayloadType</key>
+        <string>com.apple.caldav.account</string>
+        <key>PayloadUUID</key>
+        <string>995249dc-8418-78c5-3d46-fab3d6207ab5</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+    </dict>
+  </array>
+  <key>PayloadDescription</key>
+  <string>blutrgr@eu40.1host.gr Secure Calendar Setup</string>
+  <key>PayloadDisplayName</key>
+  <string>blutrgr@eu40.1host.gr Secure Calendar Setup</string>
+  <key>PayloadIdentifier</key>
+  <string>cpanel.mail.org.blutrgr.eu40.1host.gr-caldav</string>
+  <key>PayloadOrganization</key>
+  <string>cpanel.mail.org.blutrgr.eu40.1host.gr</string>
+  <key>PayloadRemovalDisallowed</key>
+  <false/>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadUUID</key>
+  <string>0c466584-46a9-d0ec-ab68-5acc94c24e12</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+</dict>
+</plist>
