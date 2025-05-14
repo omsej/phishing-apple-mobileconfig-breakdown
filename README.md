@@ -81,9 +81,11 @@ setTimeout(() => {
 
 ### Purpose:
 - Displays a fake success/loading screen
-- The portion of the url "https://live.microsoft.outh.sso." is added to make the link seem legitimate.
-- Redirects to their phishing site impersonating Microsoft’s login page. 
-- Uses `cprapid.com` webhosting company where the attacker is hosting their landing page.
+- The portion of the url "live.microsoft.outh.sso." is added to make the link seem legitimate
+- Redirects to their phishing site impersonating Microsoft’s login page
+- Uses "cprapid.com" an auto-generated hostname for web-hosting accounts using cPanel
+- "50.6.202.90" the IP of the physical server where the phishing site is hosted ([IP address information](https://www.shodan.io/host/50.6.202.90))
+- Finally, "Xkjvaksk121asIghlasdqwe" is a tracking token and can be used to auto populate fields on the fake page
 
 ---
 
