@@ -9,7 +9,8 @@ The campaign leverages Apple `.mobileconfig` profiles which may be useful for th
 
 
 
-![phishing_screenshot](https://github.com/user-attachments/assets/ef862741-1ca3-4ef0-82b3-04ef3954b03c)
+![82628182](https://github.com/user-attachments/assets/d2108cb0-d1e9-4708-a62b-8f1186df4aba)
+
 
 
 
@@ -59,9 +60,9 @@ Microsoft Secure Document Access
 
 ---
 
-## Redirection JavaScript (Embedded or Linked)
+## Redirection JavaScript
 
-This JavaScript is embedded in a fake landing page (or linked through the `.mobileconfig` installation path):
+This JavaScript is embedded in a fake Billing Details button:
 
 ```javascript
 setTimeout(() => {
@@ -75,9 +76,10 @@ setTimeout(() => {
 ```
 
 ### Purpose:
-- Displays a fake success/loading screen  
-- Redirects to a phishing site impersonating Microsoft’s login page  
-- Uses `cprapid.com`, a legitimate domain commonly abused via Cloudflare or similar services  
+- Displays a fake success/loading screen
+- The portion of the url "https://live.microsoft.outh.sso." is added to make the link seem legitimate.
+- Redirects to their phishing site impersonating Microsoft’s login page. 
+- Uses `cprapid.com` webhosting company where the attacker is hosting their landing page.
 
 ---
 
