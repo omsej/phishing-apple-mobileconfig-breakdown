@@ -1,0 +1,11 @@
+Type,Value,Description
+Email,blutrgr@eu40.1host.gr,Spoofed email address used in phishing profile
+Domain,mail.blutr.gr,Attacker-controlled mail/CardDAV/CalDAV server
+Redirect Domain,live.microsoft.outh.sso.50-6-202-90.cprapid.com,Phishing redirect URL
+File Extension,.mobileconfig,Apple configuration profile format used for malicious payloads
+Port,993,IMAP over SSL (used by email payload)
+Port,465,SMTP over SSL (used by email payload)
+Port,2080,Non-standard SSL port used by CardDAV/CalDAV to evade detection
+Payload Type,com.apple.mail.managed,Payload type for Apple Mail account
+Payload Type,com.apple.carddav.account,Payload type for Apple Contacts (CardDAV)
+Payload Type,com.apple.caldav.account,Payload type for Apple Calendar (CalDAV)
