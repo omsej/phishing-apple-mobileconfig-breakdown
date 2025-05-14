@@ -7,6 +7,10 @@ This repository was created using the files and information from a phishing emai
 I regularly analyze phishing attempts I encounter, both out of curiosity and to stay aware of evolving techniques. In this case, while the email itself was part of a typical mass phishing campaign and used fairly standard methods, I chose to document it here as a **learning resource** for others.  
 The campaign leverages Apple `.mobileconfig` profiles which may be useful for those studying mobile or configuration-based threats.
 
+**Don't open the `.mobileconfig` files on an iPhone**
+The phishing site is likely down by the time I post this but it may still attempt installing profiles on your phone.
+
+---
 
 
 ![82628182](https://github.com/user-attachments/assets/d2108cb0-d1e9-4708-a62b-8f1186df4aba)
