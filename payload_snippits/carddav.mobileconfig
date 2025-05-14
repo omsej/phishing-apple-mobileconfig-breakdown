@@ -1,0 +1,49 @@
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+
+<plist version="1.0">
+<dict>
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+        <key>CardDAVAccountDescription</key>
+        <string>blutrgr@eu40.1host.gr Secure Contacts Setup</string>
+        <key>CardDAVHostName</key>
+        <string>mail.blutr.gr:2080</string>
+        <key>CardDAVUseSSL</key>
+        <true/>
+        <key>CardDAVUsername</key>
+        <string>blutrgr</string>
+        <key>PayloadDescription</key>
+        <string>blutrgr@eu40.1host.gr Secure Contacts Setup</string>
+        <key>PayloadDisplayName</key>
+        <string>CardDAV</string>
+        <key>PayloadIdentifier</key>
+        <string>cpanel.mail.org.blutrgr.eu40.1host.gr</string>
+        <key>PayloadOrganization</key>
+        <string>eu40.1host.gr</string>
+        <key>PayloadType</key>
+        <string>com.apple.carddav.account</string>
+        <key>PayloadUUID</key>
+        <string>8f336d26-f6bb-1d8d-9531-7bf172372a1b</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+    </dict>
+  </array>
+  <key>PayloadDescription</key>
+  <string>blutrgr@eu40.1host.gr Secure Contacts Setup</string>
+  <key>PayloadDisplayName</key>
+  <string>blutrgr@eu40.1host.gr Secure Contacts Setup</string>
+  <key>PayloadIdentifier</key>
+  <string>cpanel.mail.org.blutrgr.eu40.1host.gr-carddav</string>
+  <key>PayloadOrganization</key>
+  <string>cpanel.mail.org.blutrgr.eu40.1host.gr</string>
+  <key>PayloadRemovalDisallowed</key>
+  <false/>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadUUID</key>
+  <string>10a30957-e16b-30bf-c00f-48e1e9a85069</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+</dict>
+</plist>
